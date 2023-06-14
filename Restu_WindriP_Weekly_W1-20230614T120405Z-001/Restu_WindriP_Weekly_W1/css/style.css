@@ -22,6 +22,7 @@ body
     text-decoration: none;
     box-sizing: border-box;
 }
+
 ::before,::after
 {
     box-sizing: border-box;
@@ -296,6 +297,7 @@ h5.info
     color: var(--bg-black-100);
     visibility: hidden;
     transition: transform 0.4s,top 0.4s;
+    margin: auto;
 }
 .open-popup
 {
