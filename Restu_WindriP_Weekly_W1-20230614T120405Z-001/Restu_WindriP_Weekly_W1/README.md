@@ -29,9 +29,9 @@ Aplikasi ini dibangun dengan menggunakan :
 ┃ ┃┗ 📜color.css
 ┃ ┃┗ 📜style.css
 ┣ 📦images
-┃┃┗ 📜coba (1) (2).jpg
+┃ ┃┗ 📜coba (1) (2).jpg
 ┣ 📦js
-┃ ┗ 📜script.js
+┃ ┃ ┗ 📜script.js
 ┣index.html
 ┣README.md
 
