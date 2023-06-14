@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restu Windri P</title>
+    <!-- ===== CSS Files ===== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/skin/color.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ===== Main Container Start ===== -->
+    <div class="main container">
+        <!-- ===== Aside Start ===== -->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>R</span>evoU</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+        <!-- ===== Aside End ===== -->
+        <!-- ===== Main Content Start ===== -->
+        <div class="main-content">
+            <!-- ===== Home Section Start ===== -->
+            <section class="home section">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h1 class="hello padd-15">Hi,I'm <span class="name">Restu Windri P</span></h1>
+                            <h3 class="my-profession padd-15">I'm a <span class="typing">student of sofware engineering</span></h3>
+                            <h5 class="info padd-15">I never had to learn software engineering before, hope I can be a software engineer someday.</h5>
+                            <button type="submit" class="btn hire-me padd-15" onclick="openPopup()">Hire Me</button>
+                            <div class="popup" id="popup">
+                                <h2>Blissful!</h2>
+                                <p>Thank you for giving me this opportunity</p>
+                                <button type="button" onclick="closePopup()">OK!</button>
+                            </div>
+                            <script src="script.js"></script>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="images/coba (1) (2).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Home Section End ===== -->
+        </div>
+        <!-- ===== Main Content End ===== -->
+    </div>
+    <!-- ===== Main Container End ===== -->   
+<script>
+    let popup = document.getElementById('popup');
+    function openPopup() {
+        popup.classList.add('open-popup');
+    }
+    function closePopup() {
+        popup.classList.remove('open-popup');
+    }
+</script> 
+</body>
+</html>

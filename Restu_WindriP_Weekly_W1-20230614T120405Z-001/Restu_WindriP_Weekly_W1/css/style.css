@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap');
+:root
+{
+    --bg-limegreen-100 : #32CD32;
+    --bg-shockingpink-100 : #fc0fc0;
+    --bg-blue-100 : #9cdaff;
+    --bg-yellow-100 : #F0E27B;
+    --bg-black-100 : #0a0044;
+    --bg-white-100 : #e3e1e4;
+}
+body
+{
+   line-height: 1.5;
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after
+{
+    box-sizing: border-box;
+}
+ul
+{
+    list-style: none;
+}
+.section
+{
+    background: var(--bg-yellow-100);
+    min-height: 100vh;
+    display: block;
+    position: fixed;
+    left: 270px;
+    padding: 0 30px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1;
+}
+.padd-15
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container
+{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+.btn
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: var(--bg-white-100);
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: var(--bg-shockingpink-100);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover
+{
+    transform: scale(1.05);
+}
+/* Aside */
+.aside
+{
+    width: 270px;
+    background: var(--bg-shockingpink-100);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    height: 100%;
+    border-right: 1px solid var(--bg-limegreen-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.aside .logo
+{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.aside .logo a
+{
+    color: var(--bg-yellow-100);
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    position: relative;
+}
+.aside .logo a span
+{
+    font-family: 'Clicker Script', cursive;
+    font-family: 60px;
+}
+.aside .logo a::before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
+}
+.aside .logo a::after
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top: 0;
+    right: 0;
+}
+.aside .nav-toggler
+{
+    height: 40px;
+    width: 45px;
+    border: 1px solid var(--bg-limegreen-100);
+    cursor: pointer;
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    border-radius: 5px;
+    background: var(--bg-shockingpink-100);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.aside .nav-toggler span
+{
+    height: 2px;
+    width: 18px;
+    background: var(--bg-black-100);
+    display: inline-block;
+    position: relative;
+}
+.aside .nav-toggler span::before
+{
+    content: '';
+    height: 2px;
+    width: 18px;
+    background: var(--bg-black-100);
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+.aside .nav-toggler span::after
+{
+    content: '';
+    height: 2px;
+    width: 18px;
+    background: var(--bg-black-100);
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.aside .nav
+{
+    margin-top: 50px;
+
+}
+.aside .nav li
+{
+    margin-bottom: 20px;
+    display: block;
+}
+.aside .nav li a
+{
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    border-bottom: 1px solid var(--bg-limegreen-100);
+    color: var(--bg-yellow-100);
+    padding: 5px 15px;
+}
+/* .aside .nav li a.active
+{
+    color: var(--skin-color);
+}
+.aside .nav li a i
+{
+    margin-right: 15px;
+}
+/* Home */
+.home
+{
+    min-height: 100vh;
+    display: flex;
+    color: var(--bg-black-100);
+}
+.home .home-info
+{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+h1.hello
+{
+    font-size: 28px;
+    margin: 15px 0;
+}
+h1.hello span
+{
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--bg-shockingpink-100);
+}
+h3.my-profession
+{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.typing
+{
+    color: var(--bg-shockingpink-100);
+}
+h5.info
+{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--bg-black-100);
+}
+.home .home-img
+{
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+}
+.home-img::after
+{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid var(--bg-shockingpink-100);
+    border-right: 10px solid var(--bg-shockingpink-100);
+    right: 80px;
+    bottom: 40px;
+}
+.home-img::before
+{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid var(--bg-shockingpink-100);
+    border-left: 10px solid var(--bg-shockingpink-100);
+    left: 70px;
+    top: -40px;
+}
+.home .home-img img
+{
+    margin: auto;
+    border-radius: 10px;
+}
+.popup
+{
+    width: 400px;
+    background: #32CD32;
+    border-radius: 6px;
+    position: absolute;
+    top: -60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: var(--bg-black-100);
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-popup
+{
+    visibility: visible;
+}
+.popup h2
+{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button
+{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: var(--bg-blue-100);
+    color: var(--bg-black-100);
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+.popup button:hover
+{
+    transform: scale(1.05);
+}
