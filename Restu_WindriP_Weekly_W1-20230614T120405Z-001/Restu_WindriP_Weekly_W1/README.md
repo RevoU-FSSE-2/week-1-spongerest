@@ -42,9 +42,9 @@ Aplikasi ini dibangun dengan menggunakan :
 
 ┃ ┗ 📜script.js
 
-┣index.html
+┣ index.html
 
-┣README.md
+┣ README.md
 
 ## Credit
 
