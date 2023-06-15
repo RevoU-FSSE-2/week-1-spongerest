@@ -38,4 +38,4 @@ Aplikasi ini dibangun dengan menggunakan :
 ## Credit
 
 Restu Windri Pangestu
-https://silly-palmier-48c08c.netlify.app
+https://courageous-frangipane-69fcfb.netlify.app
