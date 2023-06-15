@@ -24,18 +24,29 @@ Aplikasi ini dibangun dengan menggunakan :
 
 ## Structure
 📦RESTU_WINDRIP_WEEKLY_W1
+
 ┣ 📦css
+
 ┃ ┣ 📂skin
+
 ┃ ┃┗ 📜color.css
-┃ ┃┗ 📜style.css
+
+
+┃ ┣📜style.css
+
 ┣ 📦images
+
 ┃ ┃┗ 📜coba (1) (2).jpg
+
 ┣ 📦js
+
 ┃ ┗ 📜script.js
+
 ┣index.html
+
 ┣README.md
 
 ## Credit
 
 Restu Windri Pangestu
-https://courageous-frangipane-69fcfb.netlify.app
+https://silly-palmier-48c08c.netlify.app
