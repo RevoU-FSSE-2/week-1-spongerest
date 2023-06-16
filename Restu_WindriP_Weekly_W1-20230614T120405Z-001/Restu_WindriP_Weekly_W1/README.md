@@ -49,4 +49,4 @@ Aplikasi ini dibangun dengan menggunakan :
 ## Credit
 
 Restu Windri Pangestu
-https://courageous-frangipane-69fcfb.netlify.app/
+https://frolicking-otter-5f6939.netlify.app
